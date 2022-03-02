@@ -1,49 +1,38 @@
-<h1 align="center">{CHANGE ME}</h1>
+# _Trip Diary_
 
-Matthew Eilar | [LinkedIn](https://www.linkedin.com/in/eilar-503/) | [email](mailto:<meilar@gmail.com>) | [website](https://www.mattheweilar.com)
+#### By William Jameson and Zachary Green
 
-## About this project
-{SCREENSHOT}
-
-## Get Started
-
-### The Hard Way
-
-
-### The Easy Way
-
+#### _This application lets the user post a trip they went on with trip details_
 
 ## Technologies Used
 
-This site incorporates the following frameworks and languages:
+* C#
+* MStest
+* Bootstrap
 
+## Description
 
-## Known Issues
+_Add a Location with a person you travelled with, days stayed and a journal entry about your experiences. Then look up other trips to get details or delete specific locations or all locations._
 
-## Acknowledgements
+## Setup/Installation Requirements
 
-Thank you to my partner, Alex, for support in all ways. Thank you to my parents for encouraging technology exploration, even when resources were scarce. Thank you to the Kohlenberg Foundation for {CHANGE ME}.
+* Visit https://github.com/wcjameson/travel-diary.git
+* Clone this repository to your desktop.
+* Navigate to the Home directory.
+* Open the Index.cshtml file in your browser.
 
-## License 
+* Clone this repository to your desktop.
+* Navigate to the Places directory in your terminal.
+* Run "$ dotnet restore" to restore the bin and obj folders.
+* Run "$ dotnet build" to build the project.
+* Run "$ dotnet run" to open the program inside the VSCode Terminal.
 
-MIT License
+## Known Bugs
 
-© 2022 Matthew Eilar
+* No known bugs at this time.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## License
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+MIT
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Copyright (c) 2022 William Jameson and Zachary Green
