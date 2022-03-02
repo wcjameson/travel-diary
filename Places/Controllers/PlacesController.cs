@@ -21,9 +21,9 @@ namespace Travel.Controllers
     }
 
     [HttpPost("/places")]
-    public ActionResult Create(string cityName)
+    public ActionResult Create(string cityName, string partner, int daysStayed, string journal)
     {
-      Places nameOfCity = new Places(cityName);
+      Places nameOfCity = new Places(cityName, partner, daysStayed, journal);
       return RedirectToAction("Index");
     }
 

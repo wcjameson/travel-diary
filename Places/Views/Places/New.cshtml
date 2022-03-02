@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>My To-Do List!</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Travel Diary/CREATE-NEW-TRIP</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
     <form action="/places" method="post">
       <label for="cityName">Enter a City name:</label>
+      <br>
       <input id="cityName" name="cityName" type="text">
-      <button type="submit">Submit</button>
+      <br>
+      <label for="daysStayed">Enter how many days you stayed:</label>
+      <br>
+      <input id="daysStayed" name="daysStayed" type="text">
+      <br>
+      <label for="partner">Enter anyone you traveled with:</label>
+      <br>
+      <input id="partner" name="partner" type="text">
+      <br>
+      <label for="journal">Enter your experience of the trip:</label>
+      <br>
+      <input id="journal" name="journal" type="text">
+      <br>
+      <button type="submit" class="btn btn-success">Submit</button>
     </form>
-  </body>
+  </div>
+</body>
+
 </html>
