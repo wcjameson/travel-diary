@@ -12,10 +12,11 @@
   <div class="container">
     <h1>Trip Details:</h1>
 
-    <h2>@Model.CityName</h2>
-    <h5>@Model.Partner</h5>
-    <h5>@Model.DaysStayed</h5>
-    <p><strong>@Model.Journal</strong></p>
+    <h2><strong>@Model.CityName</strong></h2>
+    <img src="@Model.Location_Image" alt="trip location" width="300">
+    <h6><strong>Who I travelled with:</strong> <em>@Model.Partner</em></h6>
+    <h6><strong>How many days I stayed:</strong> <em></em>@Model.DaysStayed</em></h6>
+    <p><strong>Journal about my vacation:</strong> @Model.Journal</p>
 
     <a href='/places/new'><strong>Add another trip?</strong></a>
     <br>

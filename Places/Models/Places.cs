@@ -8,6 +8,8 @@ namespace Travel.Models
     public string Partner { get; set; }
     public int DaysStayed { get; set; }
     public string Journal { get; set; }
+
+    public string Location_Image { get; set; }
     public int Id { get; }
     private static List<Places> _instances = new List<Places> {}; 
     public static List<Places> GetAll()
@@ -18,12 +20,13 @@ namespace Travel.Models
     {
       _instances.Clear();
     }
-    public Places(string cityName, string partner, int daysStayed, string journal)
+    public Places(string cityName, string partner, int daysStayed, string journal, string location_Image)
     {
       CityName = cityName;
       Partner = partner;
       DaysStayed = daysStayed;
       Journal = journal;
+      Location_Image = location_Image;
       _instances.Add(this);
       Id = _instances.Count;
     }
